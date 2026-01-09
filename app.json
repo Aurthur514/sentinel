@@ -1,0 +1,13 @@
+{
+  "name": "SentinelSight",
+  "description": "AI-powered video analytics platform for multi-camera surveillance",
+  "repository": "https://github.com/Aurthur514/sentinel",
+  "keywords": ["video-analytics", "ai", "surveillance", "yolo", "fastapi"],
+  "stack": "container",
+  "env": {
+    "LOITER_SECONDS": {
+      "description": "Number of seconds before triggering loitering alert",
+      "value": "8"
+    }
+  }
+}
