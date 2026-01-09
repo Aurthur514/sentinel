@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SentinelSight — AI Video Analytics (MVP)
 
 This repository contains a 2-day sprint MVP for a multi-camera video analytics platform.
@@ -55,3 +56,7 @@ Known limitations:
 
 Next steps (if extended):
 - Add role-based access, MQTT/webhook publishing, clip recording, robust multi-model inference, and horizontal scaling.
+=======
+# sentinel
+sentine
+>>>>>>> 8696aebe72b73cf45931a76209bfc034d85b3a70
