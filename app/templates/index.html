@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SentinelSight</title>
+    <script src="/static/app.js"></script>
+    <style>body{font-family:Arial;margin:20px} .cam{display:inline-block;margin:10px;border:1px solid #ddd;padding:8px}</style>
+  </head>
+  <body>
+    <h1>SentinelSight</h1>
+    <div>
+      <h3>Add Camera</h3>
+      <form id="addCam">
+        <input id="name" placeholder="Name" required>
+        <input id="url" placeholder="rtsp_url or file path" size="60" required>
+        <input id="location" placeholder="location">
+        <button>Add</button>
+      </form>
+    </div>
+    <div>
+      <h3>Cameras</h3>
+      <div id="cameras"></div>
+    </div>
+    <div>
+      <h3>Events</h3>
+      <div id="events"></div>
+    </div>
+  </body>
+</html>

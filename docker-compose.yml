@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  sentinelsight:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./sentinelsight.db:/app/sentinelsight.db
+      - ./snapshots:/app/snapshots
+      - ./test_videos:/app/test_videos
+    environment:
+      - LOITER_SECONDS=8
+    restart: unless-stopped
