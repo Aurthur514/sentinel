@@ -19,3 +19,4 @@ sentinelsight.db
 snapshots/
 test_videos/
 .DS_Store
+*.pt
